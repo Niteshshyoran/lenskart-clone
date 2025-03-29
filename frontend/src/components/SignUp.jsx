@@ -19,8 +19,8 @@ const Signup = ({ onClose }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const url = isSignUp
-      ? "http://localhost:8000/users/signup"
-      : "http://localhost:8000/users/login"; // Different API endpoints
+      ? "https://lenskart-clone-q2tq.onrender.com/users/signup"
+      : "https://lenskart-clone-q2tq.onrender.com/users/login"; // Different API endpoints
 
     try {
       const res = await fetch(url, {
