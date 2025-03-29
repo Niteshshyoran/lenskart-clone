@@ -1,0 +1,102 @@
+/* Banner container */
+.banner-container {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+/* Trending Sunglasses Box */
+.trending-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Left Side: Text */
+.trending-text {
+    width: 50%;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.trending-text h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.trending-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shop-now-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff6699;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.shop-now-btn:hover {
+    background-color: #ff6699;
+    color: white;
+}
+
+/* Right Side: Image */
+.banner-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    width: 100%; /* Image now takes full width */
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.2)); /* Background removed dynamically */
+}
+
+/* AquaColor Section */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .trending-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trending-text,
+    .banner-image-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trending-text {
+        padding: 10px;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+}

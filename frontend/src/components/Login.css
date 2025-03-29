@@ -1,0 +1,62 @@
+/* General Styles for Login Form
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #fff;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-btn:hover {
+    color: red;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0284db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #026bb5;
+  }
+   */

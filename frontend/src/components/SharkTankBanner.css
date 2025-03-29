@@ -1,0 +1,56 @@
+/* Banner container */
+.shark-tank-banner {
+    width: 100%;
+    max-width: 100vw;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  /* Heading */
+  .banner-heading {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 15px 0;
+    margin-bottom: 30px;
+  }
+  
+  /* Content wrapper */
+  .banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* Image */
+  .banner-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .banner-content {
+      flex-direction: column;
+    }
+  
+    .banner-image {
+      width: 80%;
+    }
+  
+    .banner-text {
+      width: 80%;
+      text-align: center;
+    }
+  }
+  

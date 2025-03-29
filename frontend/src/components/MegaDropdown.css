@@ -1,0 +1,113 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    position: relative;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  
+  /* Mega Menu Container */
+  .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-top: 2px solid #007bff;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-item:hover .mega-menu {
+    display: block;
+  }
+  
+  /* Mega Menu Layout */
+  .mega-menu-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mega-menu-column {
+    width: 20%;
+    padding: 10px;
+  }
+  
+  .mega-menu-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .mega-menu-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mega-menu-column ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .mega-menu-column ul li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .mega-menu-column ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Category Sidebar */
+  .mega-menu-categories {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .mega-menu-categories .category-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .mega-menu-categories .category-item:hover {
+    background: #f5f5f5;
+  }
+  
+  .category-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .category-item span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  

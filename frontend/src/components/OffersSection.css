@@ -1,0 +1,48 @@
+.offers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .offer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .offer-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .offer-content {
+    width: 100%;
+  }
+  
+  .offer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .offer-title {
+      font-size: 12px;
+    }
+  }
+
+  
+  @media (max-width: 480px) {
+    .offer-title {
+      font-size: 12px;
+    }
+  }
+  
